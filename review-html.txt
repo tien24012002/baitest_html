@@ -1,0 +1,56 @@
+Review: Các thử HTML5
+* Các thẻ cơ bản:
+    -Thẻ tiêu đề :h1,...,h6
+    -Thẻ đoạn văn (nội dung văn bản ký tự ):<p>
+    -thẻ inline : span,br,b u,i,del,a,sub,small,string,strong,....
+    -thẻ hiện thị hình ảnh :img[src = url,alt]
+    ++ url 
+        ++dường dẫn tương đối:(images/logo.pmg||  ..images/logo.pmg)
+        ++đường dẫn tuyệt đối :[domain]/path
+    -thẻ liên kết :a[href=url,tille]
+    -thẻ address:
+*thẻ danh sách :ul,ol,li
+*thẻ form:
+     -thuộc tính:action =url
+         method: get / post / put /delete 
+        enctype:"mutipart/from-date
+    -các điều khiển thường dùng trên form:
+        +input:[name,id,type,....]
+            ++type:
+                text(defaut)
+                password
+                radio
+                checkbox
+                date/datetime-local
+                email
+                tel 
+                number
+                range
+                color
+                time
+                srearch
+                submit/reset/button
+            +select
+            +textarea
+*thẻ hiển thị bằng bảng biểu:table
+    table
+        thead-vùng tiêu đề
+            tr-dòng tiêu đề 
+                th-cột tiêu đề 
+        tbody
+            tr
+                td/th
+        tfoot
+            tr
+                td|thth
+*HTML5-> các thẻ bố cục nội dung
+    header(1 lần )
+        div
+    nav(n lần ) 
+        div
+    section(n lần)
+        asile
+        article
+            div
+    footer(1 lần )
+        div
